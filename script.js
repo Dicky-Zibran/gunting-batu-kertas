@@ -60,8 +60,8 @@ function displayResult(playerChoice, computerChoice, result) {
     loseSound.play();  // Putar suara kekalahan
   } else {
     document.getElementById("round-status").innerText = "Sengit nih pada seri😯";
-    resultContainer.style.borderColor = "yellow";
-    resultContainer.style.backgroundColor = "#ffff00";
+    resultContainer.style.borderColor = "gray";
+    resultContainer.style.backgroundColor = "#808588";
     drawSound.play();  // Putar suara seri
   }
 }

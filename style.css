@@ -1,0 +1,113 @@
+/* Reset beberapa style dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Kotak untuk Hasil Pertandingan */
+  .result-container {
+    border: 2px solid #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  
+  .result {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #round-result {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  #match-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .vs {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #round-status {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .choice {
+    width: 100px;
+    height: 100px;
+    background-color: #f2e1cd;
+    border: 1px solid #e5c1a1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .choice:hover {
+    background-color: #ffd7b3;
+  }
+  
+  .emoji {
+    font-size: 32px;
+  }
+  
+  .choice p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .result-container {
+    border: 2px solid #1e1e1e; /* Warna dasar jika belum ada hasil */
+    border-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    transition: border-color 0.3s, background-color 0.3s; /* Transisi untuk efek perubahan warna */
+  }
+  

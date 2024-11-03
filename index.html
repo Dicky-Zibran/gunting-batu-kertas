@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gunting Batu Kertas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>HASIL PERTANDINGAN</h1>
+    <!-- Mulai dari sini -->
+    <div class="result-container">
+      <div class="result">
+        <p id="round-result">RONDE SELESAI</p>
+        <div id="match-display">
+          <span id="player-choice" class="emoji">✋</span>
+          <span class="vs">VS</span>
+          <span id="computer-choice" class="emoji">✊</span>
+        </div>
+        <p id="round-status">kamu adalah pemenangnya</p>
+      </div>
+    </div>
+    <!-- Sampai sini -->
+    <div class="choices">
+      <div class="choice" onclick="playGame('Kertas')">
+        <span class="emoji">✋</span>
+        <p>Kertas</p>
+      </div>
+      <div class="choice" onclick="playGame('Gunting')">
+        <span class="emoji">✌️</span>
+        <p>Gunting</p>
+      </div>
+      <div class="choice" onclick="playGame('Batu')">
+        <span class="emoji">✊</span>
+        <p>Batu</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
